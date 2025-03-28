@@ -1,4 +1,4 @@
-means = {
+means = { # 不同强化学习算法在各种环境中的平均性能得分
 	'Trajectory\nTransformer': {
 		##
 		'halfcheetah-medium-expert-v2': 95.0,
@@ -102,7 +102,7 @@ means = {
 	},
 }
 
-errors = {
+errors = { # Trajectory Transformer算法在相应环境中的误差值。
 	'Trajectory\nTransformer': {
 		##
 		'halfcheetah-medium-expert-v2': 0.2,
